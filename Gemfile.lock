@@ -797,7 +797,6 @@ DEPENDENCIES
   rails-controller-testing (~> 1.0.5)
   rails-i18n (~> 6.0)
   rails_12factor (~> 0.0.3)
-  rake
   rb-fsevent
   rb-inotify (~> 0.10)
   react_on_rails (>= 11.3.0)
