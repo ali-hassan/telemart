@@ -204,3 +204,4 @@ group :deployment do
   gem 'capistrano3-puma',   require: false
   gem 'capistrano-npm'
 end
+gem 'rake' , '>= 0.9.2'
