@@ -32,7 +32,7 @@ gem 'delayed_paperclip', '~> 3.0.1'
 
 # Active Storage
 gem 'image_processing', '~> 1.12.2'
-gem 'mini_magick', '~> 4.11.0'
+#gem 'mini_magick', '~> 4.11.0'
 
 gem 'aws-sdk-s3', '~> 1.114.0'
 gem 'aws-sdk-ses', '~> 1.47.0'
@@ -192,3 +192,14 @@ gem 'select2-rails', '~> 4.0.13'
 gem 'cocoon', '~> 1.2.15'
 gem 'fast-polylines', '~> 2.2.2'
 gem 'rb-inotify', '~> 0.10', require: false
+
+group :deployment do
+  gem "capistrano", "=3.11"
+  gem 'capistrano3-delayed-job', '~> 1.0'
+  gem 'capistrano-ssh-doctor', '~> 1.0'
+  gem 'capistrano-rvm'
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
+  gem 'capistrano-npm'
+end
