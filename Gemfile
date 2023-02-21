@@ -203,5 +203,6 @@ group :deployment do
   gem 'capistrano-bundler', require: false
   gem 'capistrano3-puma',   require: false
   gem 'capistrano-npm'
+  gem 'puma', '~> 5.6.4'
 end
 gem 'rake'
