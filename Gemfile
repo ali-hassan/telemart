@@ -32,7 +32,7 @@ gem 'delayed_paperclip', '~> 3.0.1'
 
 # Active Storage
 gem 'image_processing', '~> 1.12.2'
-#gem 'mini_magick', '~> 4.11.0'
+gem 'mini_magick', '~> 4.11.0'
 
 gem 'aws-sdk-s3', '~> 1.114.0'
 gem 'aws-sdk-ses', '~> 1.47.0'
@@ -169,7 +169,8 @@ group :development, :test do
 end
 
 
-gem 'mini_racer', '~> 0.6.0', platforms: :ruby
+# gem 'mini_racer', '~> 0.6.0', platforms: :ruby
+gem 'mini_racer', '>=0.2.1'
 gem 'js-routes', '~> 2.2.3'
 # Color utilities needed for landing page
 gem 'color', '~> 1.8'
